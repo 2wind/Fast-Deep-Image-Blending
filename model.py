@@ -18,7 +18,7 @@ class Transfer(nn.Module):
         for i in range(down):
             self.model.append(UpConv2dBlock(c_up, norm='in', activation='relu', pad_type='reflect'))
             c_up //= 2
-        self.model.append(Conv2dBlock(c_up, 3, 7, 1, padding=3, norm='none', activation='tanh', pad_type='reflect')) # activation?
+        self.model.append(Conv2dBlock(c_up, 3, 7, 1, padding=3, norm='none', activation='none', pad_type='reflect')) # activation?
         self.model = nn.Sequential(*self.model)
 
     def to_rgb(self, x):
@@ -53,4 +53,4 @@ class LaplacianFilter(nn.Module):
         green_gradient_tensor = self.conv(green_img_tensor).squeeze(1)
         blue_gradient_tensor = self.conv(blue_img_tensor).squeeze(1)
 
-        return red_gradient_tensor, green_gradient_tensor, blue_gradient_tensor
+        return red_gradient_tensor, green_gradient_tensor, blue_gradient_tensor  # (B, H, W)

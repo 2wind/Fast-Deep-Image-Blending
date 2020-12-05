@@ -15,6 +15,7 @@ import torch.nn as nn
 import torch
 from torch.autograd import Variable
 from torchvision import models
+from torchvision import utils as vutils
 from collections import namedtuple
 import pdb
 import copy
@@ -27,6 +28,16 @@ import aiohttp
 import async_timeout
 
 
+def _prepare(img):
+    return img.permute((1,2,0)).numpy().astype(np.uint8)
+
+
+def save_grid(tensor, path, nrow=1):
+    grid = vutils.make_grid(tensor.cpu(), nrow=nrow)
+    img = _prepare(grid)
+    Image.fromarray(img).save(path)
+
+
 def numpy2tensor(np_array, gpu_id):
     if len(np_array.shape) == 2:
         tensor = torch.from_numpy(np_array).unsqueeze(0).float().to(gpu_id)
@@ -36,8 +47,9 @@ def numpy2tensor(np_array, gpu_id):
 
 
 def make_canvas_mask(x_start, y_start, target_img, mask):
-    canvas_mask = np.zeros((target_img.shape[0], target_img.shape[1]))
-    canvas_mask[int(x_start-mask.shape[0]*0.5):int(x_start+mask.shape[0]*0.5), int(y_start-mask.shape[1]*0.5):int(y_start+mask.shape[1]*0.5)] = mask
+    canvas_mask = np.zeros((mask.shape[0], target_img.shape[2], target_img.shape[3]))
+    canvas_mask[:, int(x_start-mask.shape[1]*0.5):int(x_start+mask.shape[1]*0.5),
+                   int(y_start-mask.shape[2]*0.5):int(y_start+mask.shape[2]*0.5)] = mask
     return canvas_mask
 
 def laplacian_filter_tensor(img_tensor, gpu_id):
@@ -59,39 +71,35 @@ def laplacian_filter_tensor(img_tensor, gpu_id):
     return red_gradient_tensor, green_gradient_tensor, blue_gradient_tensor
     
 
-lf = LaplacianFilter()
-def compute_gt_gradient(x_start, y_start, source_img, target_img, mask, gpu_id):
-
+def compute_gt_gradient(lf, canvas_mask, x_start, y_start, source_img, target_img, mask, gpu_id):
+    canvas_mask = canvas_mask[:, 0].cpu().numpy()  # (B, ts, ts)
+    mask = mask.cpu().numpy()
     # compute source image gradient
     # source_img_tensor = torch.from_numpy(source_img).unsqueeze(0).transpose(1,3).transpose(2,3).float().to(gpu_id)
     source_img_tensor = source_img
-    red_source_gradient_tensor, green_source_gradient_tensor, blue_source_gradient_tenosr = lf(source_img_tensor)
-    red_source_gradient = red_source_gradient_tensor.cpu().data.numpy()[0]
-    green_source_gradient = green_source_gradient_tensor.cpu().data.numpy()[0]
-    blue_source_gradient = blue_source_gradient_tenosr.cpu().data.numpy()[0]
+    red_source_gradient_tensor, green_source_gradient_tensor, blue_source_gradient_tenosr = lf(source_img_tensor)  # (B, ss, ss)
+    red_source_gradient = red_source_gradient_tensor.cpu().data.numpy()  # (B, ss, ss)
+    green_source_gradient = green_source_gradient_tensor.cpu().data.numpy()
+    blue_source_gradient = blue_source_gradient_tenosr.cpu().data.numpy()
     
     # compute target image gradient
     # target_img_tensor = torch.from_numpy(target_img).unsqueeze(0).transpose(1,3).transpose(2,3).float().to(gpu_id)
     target_img_tensor = target_img
-    red_target_gradient_tensor, green_target_gradient_tensor, blue_target_gradient_tenosr = lf(target_img_tensor)
-    red_target_gradient = red_target_gradient_tensor.cpu().data.numpy()[0]
-    green_target_gradient = green_target_gradient_tensor.cpu().data.numpy()[0]
-    blue_target_gradient = blue_target_gradient_tenosr.cpu().data.numpy()[0]    
-    
-    # mask and canvas mask
-    canvas_mask = np.zeros((target_img.shape[0], target_img.shape[1]))
-    canvas_mask[int(x_start-source_img.shape[0]*0.5):int(x_start+source_img.shape[0]*0.5), int(y_start-source_img.shape[1]*0.5):int(y_start+source_img.shape[1]*0.5)] = mask
-    
+    red_target_gradient_tensor, green_target_gradient_tensor, blue_target_gradient_tenosr = lf(target_img_tensor)  # (B, ts, ts)
+    red_target_gradient = red_target_gradient_tensor.cpu().data.numpy()
+    green_target_gradient = green_target_gradient_tensor.cpu().data.numpy()
+    blue_target_gradient = blue_target_gradient_tenosr.cpu().data.numpy()
+
     # foreground gradient
     red_source_gradient = red_source_gradient * mask
     green_source_gradient = green_source_gradient * mask
     blue_source_gradient = blue_source_gradient * mask
     red_foreground_gradient = np.zeros((canvas_mask.shape))
-    red_foreground_gradient[int(x_start-source_img.shape[0]*0.5):int(x_start+source_img.shape[0]*0.5), int(y_start-source_img.shape[1]*0.5):int(y_start+source_img.shape[1]*0.5)] = red_source_gradient
+    red_foreground_gradient[:, int(x_start-source_img.shape[2]*0.5):int(x_start+source_img.shape[2]*0.5), int(y_start-source_img.shape[3]*0.5):int(y_start+source_img.shape[3]*0.5)] = red_source_gradient
     green_foreground_gradient = np.zeros((canvas_mask.shape))
-    green_foreground_gradient[int(x_start-source_img.shape[0]*0.5):int(x_start+source_img.shape[0]*0.5), int(y_start-source_img.shape[1]*0.5):int(y_start+source_img.shape[1]*0.5)] = green_source_gradient
+    green_foreground_gradient[:, int(x_start-source_img.shape[2]*0.5):int(x_start+source_img.shape[2]*0.5), int(y_start-source_img.shape[3]*0.5):int(y_start+source_img.shape[3]*0.5)] = green_source_gradient
     blue_foreground_gradient = np.zeros((canvas_mask.shape))
-    blue_foreground_gradient[int(x_start-source_img.shape[0]*0.5):int(x_start+source_img.shape[0]*0.5), int(y_start-source_img.shape[1]*0.5):int(y_start+source_img.shape[1]*0.5)] = blue_source_gradient
+    blue_foreground_gradient[:, int(x_start-source_img.shape[2]*0.5):int(x_start+source_img.shape[2]*0.5), int(y_start-source_img.shape[3]*0.5):int(y_start+source_img.shape[3]*0.5)] = blue_source_gradient
     
     # background gradient
     red_background_gradient = red_target_gradient * (canvas_mask - 1) * (-1)
@@ -103,20 +111,12 @@ def compute_gt_gradient(x_start, y_start, source_img, target_img, mask, gpu_id):
     gt_green_gradient = green_foreground_gradient + green_background_gradient
     gt_blue_gradient = blue_foreground_gradient + blue_background_gradient
     
-#    np.save('red_foreground_gradient.npy', red_foreground_gradient)
-#    np.save('green_foreground_gradient.npy', green_foreground_gradient)
-#    np.save('blue_foreground_gradient.npy', blue_foreground_gradient)
-#    np.save('red_background_gradient.npy', red_background_gradient)
-#    np.save('green_background_gradient.npy', green_background_gradient)
-#    np.save('blue_background_gradient.npy', blue_background_gradient)
-#    pdb.set_trace()
-    
-    gt_red_gradient = numpy2tensor(gt_red_gradient, gpu_id)
-    gt_green_gradient = numpy2tensor(gt_green_gradient, gpu_id)  
-    gt_blue_gradient = numpy2tensor(gt_blue_gradient, gpu_id)
+    gt_red_gradient = torch.from_numpy(gt_red_gradient).float().to(gpu_id)  # (B, ts, ts)
+    gt_green_gradient = torch.from_numpy(gt_green_gradient).float().to(gpu_id)  # (B, ts, ts)
+    gt_blue_gradient = torch.from_numpy(gt_blue_gradient).float().to(gpu_id)  # (B, ts, ts)
     
     gt_gradient = [gt_red_gradient, gt_green_gradient, gt_blue_gradient]
-    return gt_gradient
+    return gt_gradient  # list of (B, ts, ts)
 
 
 
