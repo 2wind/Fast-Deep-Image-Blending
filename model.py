@@ -9,7 +9,7 @@ class Transfer(nn.Module):
         c_up = args.c_up  # 32
         down = args.down  # 2
         self.model = [
-            Conv2dBlock(4, c_up, 7, 1, 3, norm='in', pad_type='reflect'),  # RGB + mask
+            Conv2dBlock(7, c_up, 7, 1, 3, norm='in', pad_type='reflect'),  # RGB + mask + target
         ]
         for i in range(down):
             self.model.append(Conv2dBlock(c_up, 2 * c_up, 4, 2, 1, norm='in', pad_type='reflect'))
@@ -27,12 +27,12 @@ class Transfer(nn.Module):
     def forward(self, x):
         """
         Args:
-            x: (B, 4, ts, ts): RGB + mask
+            x: (B, 7, ts, ts): RGB + mask + target
 
-        Returns: (B, 3, ts, ts): RGB [0, 255]
+        Returns: (B, 3, ts, ts): RGB
 
         """
-        return self.to_rgb(self.model(x))
+        return self.model(x)
 
 
 # Image gradient
