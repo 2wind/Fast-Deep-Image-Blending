@@ -18,7 +18,7 @@ class Transfer(nn.Module):
         for i in range(down):
             self.model.append(UpConv2dBlock(c_up, norm='in', activation='relu', pad_type='reflect'))
             c_up //= 2
-        self.model.append(Conv2dBlock(c_up, 3, 7, 1, padding=3, norm='none', activation='none', pad_type='reflect')) # activation?
+        self.model.append(Conv2dBlock(c_up, 3, 7, 1, padding=3, norm='none', activation='none', pad_type='reflect'))
         self.model = nn.Sequential(*self.model)
 
     def to_rgb(self, x):
@@ -28,6 +28,36 @@ class Transfer(nn.Module):
         """
         Args:
             x: (B, 7, ts, ts): RGB + mask + target
+
+        Returns: (B, 3, ts, ts): RGB
+
+        """
+        return self.model(x)
+
+
+# simple style transfer
+class Refiner(nn.Module):
+    def __init__(self, args):
+        super(Refiner, self).__init__()
+        c_up = args.c_up // 2  # 16
+        down = args.down  # 2
+        self.model = [
+            Conv2dBlock(3, c_up, 7, 1, 3, norm='in', pad_type='reflect'),  # RGB
+        ]
+        for i in range(down):
+            self.model.append(Conv2dBlock(c_up, 2 * c_up, 4, 2, 1, norm='in', pad_type='reflect'))
+            c_up *= 2
+        self.model.append(ResBlocks(5, c_up, norm='in', activation='relu', pad_type='reflect'))
+        for i in range(down):
+            self.model.append(UpConv2dBlock(c_up, norm='in', activation='relu', pad_type='reflect'))
+            c_up //= 2
+        self.model.append(Conv2dBlock(c_up, 3, 7, 1, padding=3, norm='none', activation='none', pad_type='reflect'))
+        self.model = nn.Sequential(*self.model)
+
+    def forward(self, x):
+        """
+        Args:
+            x: (B, 3, ts, ts): RGB
 
         Returns: (B, 3, ts, ts): RGB
 

@@ -23,19 +23,18 @@ tv_weight = 1e-6
 parser = argparse.ArgumentParser()
 parser.add_argument('--source_file', type=str, default='data/1_source.png', help='path to the source image')
 parser.add_argument('--mask_file', type=str, default='data/1_mask.png', help='path to the source mask image')
-parser.add_argument('--target_file', type=str, default='data/1_target.png', help='path to the target image')
+parser.add_argument('--target_file', type=str, default='data/6_target.png', help='path to the target image')
 parser.add_argument('--snapshot', type=str, default='checkpoints/6_target_8.pt', help='path to the snapshot')
 parser.add_argument('--batchsize', type=int, default=1, help='')
 parser.add_argument('--worker_num', type=int, default=0, help='')
 parser.add_argument('--lr', type=float, default=1e-3, help='learning rate')
-parser.add_argument('--c_up', type=int, default=32, help='')
+parser.add_argument('--c_up', type=int, default=64, help='')
 parser.add_argument('--down', type=int, default=2, help='')
 parser.add_argument('--ss', type=int, default=300, help='source image size')
 parser.add_argument('--ts', type=int, default=512, help='target image size')
 parser.add_argument('--x', type=int, default=200, help='vertical location')
 parser.add_argument('--y', type=int, default=235, help='vertical location')
-parser.add_argument('--gpu_id', type=int, default=7, help='GPU ID')
-parser.add_argument('--epoch', type=int, default=20, help='Number of epoch')
+parser.add_argument('--device', type=int, default=7, help='GPU ID')
 args = parser.parse_args()
 now = datetime.now().strftime('%Y-%m-%d_%H_%M_%S')
 
@@ -43,20 +42,20 @@ now = datetime.now().strftime('%Y-%m-%d_%H_%M_%S')
 ########### First Pass ###########
 ###################################
 
+
 # Inputs
 target_file = args.target_file
 source_file = args.source_file
 mask_file = args.mask_file
 
 # Hyperparameter Inputs
-gpu_id = args.gpu_id
-max_epoch = args.epoch
+gpu_id = args.device
 ss = args.ss  # source image size
 ts = args.ts  # target image size
 
 # Model
 transfer = Transfer(args).to(gpu_id)
-transfer.load_state_dict(torch.load(args.snapshot))
+transfer.load_state_dict(torch.load(args.snapshot, map_location='cpu'))
 lf = LaplacianFilter().to(gpu_id)
 
 # Load target images
@@ -95,7 +94,7 @@ gt_gradient = compute_gt_gradient(lf, canvas_mask, x_start, y_start, x, target_i
 
 x_ts = torch.zeros((x.shape[0], x.shape[1], ts, ts)).to(gpu_id)  # (B, 3, ts, ts)
 x_ts[:, :, x_start - ss//2:x_start + ss//2, y_start - ss//2:y_start + ss//2] = x
-input_img = transfer(torch.cat([canvas_mask, x_ts], dim=1))
+input_img = transfer(torch.cat([canvas_mask, x_ts, target_img], dim=1))
 
 
 # Composite Foreground and Background to Make Blended Image
@@ -111,7 +110,6 @@ grad_loss = 0
 for c in range(len(pred_gradient)):
     grad_loss += mse(pred_gradient[c], gt_gradient[c])
 grad_loss /= len(pred_gradient)
-grad_loss *= grad_weight
 
 # Compute Style Loss
 blend_features_style = vgg(mean_shift(input_img))
@@ -121,27 +119,27 @@ style_loss = 0
 for layer in range(len(blend_gram_style)):
     style_loss += mse(blend_gram_style[layer], target_gram_style[layer])
 style_loss /= len(blend_gram_style)
-style_loss *= style_weight
 
 # Compute Content Loss
 blend_obj = blend_img[:, :, int(x_start - x.shape[2] * 0.5):int(x_start + x.shape[2] * 0.5),
             int(y_start - x.shape[3] * 0.5):int(y_start + x.shape[3] * 0.5)]
-m = mask.unsqueeze(1).to(gpu_id)
+m = mask.unsqueeze(1).expand((-1, 3, -1, -1)).to(gpu_id)
 source_object_features = vgg(mean_shift(x * m))
 blend_object_features = vgg(mean_shift(blend_obj * m))
-content_loss = content_weight * mse(blend_object_features.relu2_2, source_object_features.relu2_2)
+content_loss = mse(blend_object_features.relu2_2, source_object_features.relu2_2)
 
 
 # Compute TV Reg Loss
 tv_loss = torch.sum(torch.abs(blend_img[:, :, :, :-1] - blend_img[:, :, :, 1:])) + \
           torch.sum(torch.abs(blend_img[:, :, :-1, :] - blend_img[:, :, 1:, :]))
-tv_loss *= tv_weight
 
 print(f'grad : {grad_loss.item():.4f}, style : {style_loss.item():.4f}, '
       f'content: {content_loss.item():.4f}, tv: {tv_loss.item():.4f}')
 
 blend_img = blend_img.detach()
+blend_img.data.clamp_(0, 255)
 input_img = input_img.detach()
+input_img.data.clamp_(0, 255)
 out = torch.cat([x_ts, x_ts*canvas_mask, blend_img, input_img], dim=0)
 save_grid(out, f'results/{now}.png', nrow=args.batchsize)
 style_name = os.path.basename(target_file).split('.')[0]

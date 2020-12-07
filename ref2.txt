@@ -2175,3063 +2175,3070 @@ grad : 0.369617, style : 0.060930, content: 3581.625000, tv: 5934276.000000
 run [1019]:
 grad : 0.369603, style : 0.060887, content: 3581.676758, tv: 5934277.000000
 
+
+
+
+
+
+
+
 Optimizing...
 run [0]:
- style : 9489111.000000, content: 0.000000
+ style : 0.951667, content: 0.000000
 
 run [1]:
- style : 9489040.000000, content: 0.000000
+ style : 0.951660, content: 0.000000
 
 run [2]:
- style : 28089622.000000, content: 0.000000
+ style : 2.734496, content: 0.000000
 
 run [3]:
- style : 4014515.000000, content: 0.000000
+ style : 0.403958, content: 0.000000
 
 run [4]:
- style : 3671412.500000, content: 0.000000
+ style : 0.364959, content: 0.000000
 
 run [5]:
- style : 2685693.750000, content: 0.000000
+ style : 0.269342, content: 0.000000
 
 run [6]:
- style : 2418226.750000, content: 0.000000
+ style : 0.242243, content: 0.000000
 
 run [7]:
- style : 1886345.875000, content: 0.000000
+ style : 0.187988, content: 0.000000
 
 run [8]:
- style : 1472919.250000, content: 0.000000
+ style : 0.146991, content: 0.000000
 
 run [9]:
- style : 1393072.625000, content: 0.000000
+ style : 0.143270, content: 0.000000
 
 run [10]:
- style : 1144218.250000, content: 0.000000
+ style : 0.117003, content: 0.000000
 
 run [11]:
- style : 1053304.000000, content: 0.000000
+ style : 0.108799, content: 0.000000
 
 run [12]:
- style : 874439.375000, content: 0.000000
+ style : 0.090453, content: 0.000000
 
 run [13]:
- style : 733736.312500, content: 0.000000
+ style : 0.075318, content: 0.000000
 
 run [14]:
- style : 648293.500000, content: 0.000000
+ style : 0.067574, content: 0.000000
 
 run [15]:
- style : 563372.875000, content: 0.000000
+ style : 0.058555, content: 0.000000
 
 run [16]:
- style : 483190.781250, content: 0.000000
+ style : 0.049605, content: 0.000000
 
 run [17]:
- style : 438954.218750, content: 0.000000
+ style : 0.043281, content: 0.000000
 
 run [18]:
- style : 369967.187500, content: 0.000000
+ style : 0.038020, content: 0.000000
 
 run [19]:
- style : 322824.875000, content: 0.000000
+ style : 0.035148, content: 0.000000
 
 run [20]:
- style : 290917.906250, content: 0.000000
+ style : 0.032194, content: 0.000000
 
 run [21]:
- style : 273711.812500, content: 0.000000
+ style : 0.030716, content: 0.000000
 
 run [22]:
- style : 253576.406250, content: 0.000000
+ style : 0.026590, content: 0.000000
 
 run [23]:
- style : 232192.765625, content: 0.000000
+ style : 0.024194, content: 0.000000
 
 run [24]:
- style : 203581.046875, content: 0.000000
+ style : 0.021592, content: 0.000000
 
 run [25]:
- style : 199987.984375, content: 0.000000
+ style : 0.019641, content: 0.000000
 
 run [26]:
- style : 182973.562500, content: 0.000000
+ style : 0.018815, content: 0.000000
 
 run [27]:
- style : 175681.000000, content: 0.000000
+ style : 0.017789, content: 0.000000
 
 run [28]:
- style : 165917.859375, content: 0.000000
+ style : 0.016286, content: 0.000000
 
 run [29]:
- style : 157849.046875, content: 0.000000
+ style : 0.014947, content: 0.000000
 
 run [30]:
- style : 146770.312500, content: 0.000000
+ style : 0.014332, content: 0.000000
 
 run [31]:
- style : 141849.828125, content: 0.000000
+ style : 0.012933, content: 0.000000
 
 run [32]:
- style : 133710.546875, content: 0.000000
+ style : 0.011948, content: 0.000000
 
 run [33]:
- style : 123466.140625, content: 0.000000
+ style : 0.010887, content: 0.000000
 
 run [34]:
- style : 108655.289062, content: 0.000000
+ style : 0.010126, content: 0.000000
 
 run [35]:
- style : 108615.718750, content: 0.000000
+ style : 0.009851, content: 0.000000
 
 run [36]:
- style : 98970.468750, content: 0.000000
+ style : 0.009404, content: 0.000000
 
 run [37]:
- style : 98480.171875, content: 0.000000
+ style : 0.009182, content: 0.000000
 
 run [38]:
- style : 95321.851562, content: 0.000000
+ style : 0.008547, content: 0.000000
 
 run [39]:
- style : 93677.609375, content: 0.000000
+ style : 0.008063, content: 0.000000
 
 run [40]:
- style : 88573.390625, content: 0.000000
+ style : 0.007338, content: 0.000000
 
 run [41]:
- style : 81030.242188, content: 0.000000
+ style : 0.006975, content: 0.000000
 
 run [42]:
- style : 75731.000000, content: 0.000000
+ style : 0.006688, content: 0.000000
 
 run [43]:
- style : 71739.789062, content: 0.000000
+ style : 0.006261, content: 0.000000
 
 run [44]:
- style : 67505.679688, content: 0.000000
+ style : 0.006061, content: 0.000000
 
 run [45]:
- style : 64909.476562, content: 0.000000
+ style : 0.005812, content: 0.000000
 
 run [46]:
- style : 62447.468750, content: 0.000000
+ style : 0.005668, content: 0.000000
 
 run [47]:
- style : 60220.300781, content: 0.000000
+ style : 0.005259, content: 0.000000
 
 run [48]:
- style : 58218.671875, content: 0.000000
+ style : 0.004969, content: 0.000000
 
 run [49]:
- style : 55819.843750, content: 0.000000
+ style : 0.004721, content: 0.000000
 
 run [50]:
- style : 51359.269531, content: 0.000000
+ style : 0.004590, content: 0.000000
 
 run [51]:
- style : 49187.507812, content: 0.000000
+ style : 0.004432, content: 0.000000
 
 run [52]:
- style : 47820.558594, content: 0.000000
+ style : 0.004323, content: 0.000000
 
 run [53]:
- style : 46778.601562, content: 0.000000
+ style : 0.004218, content: 0.000000
 
 run [54]:
- style : 45885.542969, content: 0.000000
+ style : 0.003977, content: 0.000000
 
 run [55]:
- style : 44590.515625, content: 0.000000
+ style : 0.003837, content: 0.000000
 
 run [56]:
- style : 42799.398438, content: 0.000000
+ style : 0.003774, content: 0.000000
 
 run [57]:
- style : 40079.113281, content: 0.000000
+ style : 0.003604, content: 0.000000
 
 run [58]:
- style : 38130.554688, content: 0.000000
+ style : 0.003453, content: 0.000000
 
 run [59]:
- style : 36802.089844, content: 0.000000
+ style : 0.003282, content: 0.000000
 
 run [60]:
- style : 35293.503906, content: 0.000000
+ style : 0.003165, content: 0.000000
 
 run [61]:
- style : 34053.417969, content: 0.000000
+ style : 0.003069, content: 0.000000
 
 run [62]:
- style : 32772.636719, content: 0.000000
+ style : 0.002993, content: 0.000000
 
 run [63]:
- style : 32053.216797, content: 0.000000
+ style : 0.002913, content: 0.000000
 
 run [64]:
- style : 31262.656250, content: 0.000000
+ style : 0.002808, content: 0.000000
 
 run [65]:
- style : 30118.128906, content: 0.000000
+ style : 0.002670, content: 0.000000
 
 run [66]:
- style : 27978.310547, content: 0.000000
+ style : 0.002525, content: 0.000000
 
 run [67]:
- style : 27287.382812, content: 0.000000
+ style : 0.002445, content: 0.000000
 
 run [68]:
- style : 26108.517578, content: 0.000000
+ style : 0.002409, content: 0.000000
 
 run [69]:
- style : 25637.568359, content: 0.000000
+ style : 0.002379, content: 0.000000
 
 run [70]:
- style : 25244.109375, content: 0.000000
+ style : 0.002348, content: 0.000000
 
 run [71]:
- style : 24594.197266, content: 0.000000
+ style : 0.002285, content: 0.000000
 
 run [72]:
- style : 23530.857422, content: 0.000000
+ style : 0.002156, content: 0.000000
 
 run [73]:
- style : 22522.013672, content: 0.000000
+ style : 0.002063, content: 0.000000
 
 run [74]:
- style : 22046.699219, content: 0.000000
+ style : 0.001997, content: 0.000000
 
 run [75]:
- style : 21672.906250, content: 0.000000
+ style : 0.001947, content: 0.000000
 
 run [76]:
- style : 21107.529297, content: 0.000000
+ style : 0.001888, content: 0.000000
 
 run [77]:
- style : 20188.873047, content: 0.000000
+ style : 0.001835, content: 0.000000
 
 run [78]:
- style : 19198.146484, content: 0.000000
+ style : 0.001770, content: 0.000000
 
 run [79]:
- style : 18281.345703, content: 0.000000
+ style : 0.001683, content: 0.000000
 
 run [80]:
- style : 17675.716797, content: 0.000000
+ style : 0.001608, content: 0.000000
 
 run [81]:
- style : 17328.685547, content: 0.000000
+ style : 0.001574, content: 0.000000
 
 run [82]:
- style : 16944.216797, content: 0.000000
+ style : 0.001538, content: 0.000000
 
 run [83]:
- style : 16751.011719, content: 0.000000
+ style : 0.001505, content: 0.000000
 
 run [84]:
- style : 16047.856445, content: 0.000000
+ style : 0.001433, content: 0.000000
 
 run [85]:
- style : 15586.721680, content: 0.000000
+ style : 0.001371, content: 0.000000
 
 run [86]:
- style : 14927.365234, content: 0.000000
+ style : 0.001329, content: 0.000000
 
 run [87]:
- style : 14405.797852, content: 0.000000
+ style : 0.001304, content: 0.000000
 
 run [88]:
- style : 14187.060547, content: 0.000000
+ style : 0.001282, content: 0.000000
 
 run [89]:
- style : 13897.953125, content: 0.000000
+ style : 0.001267, content: 0.000000
 
 run [90]:
- style : 13720.522461, content: 0.000000
+ style : 0.001233, content: 0.000000
 
 run [91]:
- style : 13469.586914, content: 0.000000
+ style : 0.001207, content: 0.000000
 
 run [92]:
- style : 13036.604492, content: 0.000000
+ style : 0.001154, content: 0.000000
 
 run [93]:
- style : 12387.824219, content: 0.000000
+ style : 0.001122, content: 0.000000
 
 run [94]:
- style : 12016.189453, content: 0.000000
+ style : 0.001104, content: 0.000000
 
 run [95]:
- style : 11777.654297, content: 0.000000
+ style : 0.001086, content: 0.000000
 
 run [96]:
- style : 11597.147461, content: 0.000000
+ style : 0.001070, content: 0.000000
 
 run [97]:
- style : 11420.935547, content: 0.000000
+ style : 0.001029, content: 0.000000
 
 run [98]:
- style : 11169.695312, content: 0.000000
+ style : 0.000989, content: 0.000000
 
 run [99]:
- style : 10719.019531, content: 0.000000
+ style : 0.000961, content: 0.000000
 
 run [100]:
- style : 10246.630859, content: 0.000000
+ style : 0.000946, content: 0.000000
 
 run [101]:
- style : 10026.432617, content: 0.000000
+ style : 0.000931, content: 0.000000
 
 run [102]:
- style : 9867.786133, content: 0.000000
+ style : 0.000918, content: 0.000000
 
 run [103]:
- style : 9716.241211, content: 0.000000
+ style : 0.000889, content: 0.000000
 
 run [104]:
- style : 9459.799805, content: 0.000000
+ style : 0.000870, content: 0.000000
 
 run [105]:
- style : 9136.597656, content: 0.000000
+ style : 0.000829, content: 0.000000
 
 run [106]:
- style : 8842.232422, content: 0.000000
+ style : 0.000809, content: 0.000000
 
 run [107]:
- style : 8599.146484, content: 0.000000
+ style : 0.000794, content: 0.000000
 
 run [108]:
- style : 8507.971680, content: 0.000000
+ style : 0.000783, content: 0.000000
 
 run [109]:
- style : 8387.904297, content: 0.000000
+ style : 0.000773, content: 0.000000
 
 run [110]:
- style : 8249.920898, content: 0.000000
+ style : 0.000754, content: 0.000000
 
 run [111]:
- style : 8050.812988, content: 0.000000
+ style : 0.000726, content: 0.000000
 
 run [112]:
- style : 7743.598633, content: 0.000000
+ style : 0.000697, content: 0.000000
 
 run [113]:
- style : 7568.341797, content: 0.000000
+ style : 0.000684, content: 0.000000
 
 run [114]:
- style : 7480.135742, content: 0.000000
+ style : 0.000672, content: 0.000000
 
 run [115]:
- style : 7370.391602, content: 0.000000
+ style : 0.000663, content: 0.000000
 
 run [116]:
- style : 7230.259766, content: 0.000000
+ style : 0.000652, content: 0.000000
 
 run [117]:
- style : 6961.046387, content: 0.000000
+ style : 0.000638, content: 0.000000
 
 run [118]:
- style : 6709.094727, content: 0.000000
+ style : 0.000614, content: 0.000000
 
 run [119]:
- style : 6489.358887, content: 0.000000
+ style : 0.000597, content: 0.000000
 
 run [120]:
- style : 6332.249512, content: 0.000000
+ style : 0.000589, content: 0.000000
 
 run [121]:
- style : 6353.499023, content: 0.000000
+ style : 0.000581, content: 0.000000
 
 run [122]:
- style : 6192.030273, content: 0.000000
+ style : 0.000574, content: 0.000000
 
 run [123]:
- style : 6156.197754, content: 0.000000
+ style : 0.000567, content: 0.000000
 
 run [124]:
- style : 5944.201172, content: 0.000000
+ style : 0.000554, content: 0.000000
 
 run [125]:
- style : 5796.464355, content: 0.000000
+ style : 0.000546, content: 0.000000
 
 run [126]:
- style : 5662.438965, content: 0.000000
+ style : 0.000532, content: 0.000000
 
 run [127]:
- style : 5526.129395, content: 0.000000
+ style : 0.000516, content: 0.000000
 
 run [128]:
- style : 5381.225586, content: 0.000000
+ style : 0.000503, content: 0.000000
 
 run [129]:
- style : 5274.564453, content: 0.000000
+ style : 0.000498, content: 0.000000
 
 run [130]:
- style : 5208.784668, content: 0.000000
+ style : 0.000493, content: 0.000000
 
 run [131]:
- style : 5146.208984, content: 0.000000
+ style : 0.000490, content: 0.000000
 
 run [132]:
- style : 5112.087891, content: 0.000000
+ style : 0.000480, content: 0.000000
 
 run [133]:
- style : 5014.569824, content: 0.000000
+ style : 0.000469, content: 0.000000
 
 run [134]:
- style : 4948.917969, content: 0.000000
+ style : 0.000451, content: 0.000000
 
 run [135]:
- style : 4772.219727, content: 0.000000
+ style : 0.000442, content: 0.000000
 
 run [136]:
- style : 4633.997070, content: 0.000000
+ style : 0.000438, content: 0.000000
 
 run [137]:
- style : 4517.094727, content: 0.000000
+ style : 0.000434, content: 0.000000
 
 run [138]:
- style : 4423.600586, content: 0.000000
+ style : 0.000431, content: 0.000000
 
 run [139]:
- style : 4371.081543, content: 0.000000
+ style : 0.000424, content: 0.000000
 
 run [140]:
- style : 4319.565430, content: 0.000000
+ style : 0.000419, content: 0.000000
 
 run [141]:
- style : 4281.086914, content: 0.000000
+ style : 0.000407, content: 0.000000
 
 run [142]:
- style : 4230.629883, content: 0.000000
+ style : 0.000394, content: 0.000000
 
 run [143]:
- style : 4200.200684, content: 0.000000
+ style : 0.000383, content: 0.000000
 
 run [144]:
- style : 4114.827637, content: 0.000000
+ style : 0.000380, content: 0.000000
 
 run [145]:
- style : 4003.473633, content: 0.000000
+ style : 0.000375, content: 0.000000
 
 run [146]:
- style : 3900.236816, content: 0.000000
+ style : 0.000374, content: 0.000000
 
 run [147]:
- style : 3843.775879, content: 0.000000
+ style : 0.000371, content: 0.000000
 
 run [148]:
- style : 3808.975098, content: 0.000000
+ style : 0.000366, content: 0.000000
 
 run [149]:
- style : 3772.619141, content: 0.000000
+ style : 0.000357, content: 0.000000
 
 run [150]:
- style : 3721.078857, content: 0.000000
+ style : 0.000347, content: 0.000000
 
 run [151]:
- style : 3664.717773, content: 0.000000
+ style : 0.000340, content: 0.000000
 
 run [152]:
- style : 3568.854492, content: 0.000000
+ style : 0.000333, content: 0.000000
 
 run [153]:
- style : 3504.412109, content: 0.000000
+ style : 0.000330, content: 0.000000
 
 run [154]:
- style : 3453.283691, content: 0.000000
+ style : 0.000327, content: 0.000000
 
 run [155]:
- style : 3400.219238, content: 0.000000
+ style : 0.000324, content: 0.000000
 
 run [156]:
- style : 3355.830566, content: 0.000000
+ style : 0.000318, content: 0.000000
 
 run [157]:
- style : 3313.700195, content: 0.000000
+ style : 0.000313, content: 0.000000
 
 run [158]:
- style : 3282.194336, content: 0.000000
+ style : 0.000308, content: 0.000000
 
 run [159]:
- style : 3209.005859, content: 0.000000
+ style : 0.000304, content: 0.000000
 
 run [160]:
- style : 3148.422607, content: 0.000000
+ style : 0.000297, content: 0.000000
 
 run [161]:
- style : 3096.039062, content: 0.000000
+ style : 0.000290, content: 0.000000
 
 run [162]:
- style : 3046.788574, content: 0.000000
+ style : 0.000288, content: 0.000000
 
 run [163]:
- style : 2981.391357, content: 0.000000
+ style : 0.000282, content: 0.000000
 
 run [164]:
- style : 2909.999512, content: 0.000000
+ style : 0.000280, content: 0.000000
 
 run [165]:
- style : 2852.942383, content: 0.000000
+ style : 0.000274, content: 0.000000
 
 run [166]:
- style : 2867.524170, content: 0.000000
+ style : 0.000269, content: 0.000000
 
 run [167]:
- style : 2800.484375, content: 0.000000
+ style : 0.000265, content: 0.000000
 
 run [168]:
- style : 2788.099854, content: 0.000000
+ style : 0.000260, content: 0.000000
 
 run [169]:
- style : 2768.699707, content: 0.000000
+ style : 0.000255, content: 0.000000
 
 run [170]:
- style : 2680.750977, content: 0.000000
+ style : 0.000252, content: 0.000000
 
 run [171]:
- style : 2619.497314, content: 0.000000
+ style : 0.000250, content: 0.000000
 
 run [172]:
- style : 2551.637695, content: 0.000000
+ style : 0.000248, content: 0.000000
 
 run [173]:
- style : 2499.967773, content: 0.000000
+ style : 0.000246, content: 0.000000
 
 run [174]:
- style : 2465.191162, content: 0.000000
+ style : 0.000239, content: 0.000000
 
 run [175]:
- style : 2435.912109, content: 0.000000
+ style : 0.000234, content: 0.000000
 
 run [176]:
- style : 2415.635498, content: 0.000000
+ style : 0.000231, content: 0.000000
 
 run [177]:
- style : 2391.821533, content: 0.000000
+ style : 0.000228, content: 0.000000
 
 run [178]:
- style : 2375.386719, content: 0.000000
+ style : 0.000225, content: 0.000000
 
 run [179]:
- style : 2316.593018, content: 0.000000
+ style : 0.000223, content: 0.000000
 
 run [180]:
- style : 2286.232666, content: 0.000000
+ style : 0.000220, content: 0.000000
 
 run [181]:
- style : 2265.118164, content: 0.000000
+ style : 0.000219, content: 0.000000
 
 run [182]:
- style : 2245.528076, content: 0.000000
+ style : 0.000214, content: 0.000000
 
 run [183]:
- style : 2231.000488, content: 0.000000
+ style : 0.000210, content: 0.000000
 
 run [184]:
- style : 2212.729736, content: 0.000000
+ style : 0.000206, content: 0.000000
 
 run [185]:
- style : 2172.027832, content: 0.000000
+ style : 0.000203, content: 0.000000
 
 run [186]:
- style : 2129.459229, content: 0.000000
+ style : 0.000200, content: 0.000000
 
 run [187]:
- style : 2096.716309, content: 0.000000
+ style : 0.000195, content: 0.000000
 
 run [188]:
- style : 2067.338623, content: 0.000000
+ style : 0.000193, content: 0.000000
 
 run [189]:
- style : 2042.784180, content: 0.000000
+ style : 0.000192, content: 0.000000
 
 run [190]:
- style : 2025.858521, content: 0.000000
+ style : 0.000190, content: 0.000000
 
 run [191]:
- style : 2008.513794, content: 0.000000
+ style : 0.000189, content: 0.000000
 
 run [192]:
- style : 1990.609619, content: 0.000000
+ style : 0.000186, content: 0.000000
 
 run [193]:
- style : 1966.138672, content: 0.000000
+ style : 0.000183, content: 0.000000
 
 run [194]:
- style : 1935.084595, content: 0.000000
+ style : 0.000180, content: 0.000000
 
 run [195]:
- style : 1905.753296, content: 0.000000
+ style : 0.000178, content: 0.000000
 
 run [196]:
- style : 1892.856934, content: 0.000000
+ style : 0.000175, content: 0.000000
 
 run [197]:
- style : 1870.382690, content: 0.000000
+ style : 0.000173, content: 0.000000
 
 run [198]:
- style : 1844.560913, content: 0.000000
+ style : 0.000170, content: 0.000000
 
 run [199]:
- style : 1820.313599, content: 0.000000
+ style : 0.000168, content: 0.000000
 
 run [200]:
- style : 1802.219360, content: 0.000000
+ style : 0.000167, content: 0.000000
 
 run [201]:
- style : 1773.190918, content: 0.000000
+ style : 0.000166, content: 0.000000
 
 run [202]:
- style : 1742.891479, content: 0.000000
+ style : 0.000163, content: 0.000000
 
 run [203]:
- style : 1713.946533, content: 0.000000
+ style : 0.000160, content: 0.000000
 
 run [204]:
- style : 1697.954956, content: 0.000000
+ style : 0.000157, content: 0.000000
 
 run [205]:
- style : 1682.987061, content: 0.000000
+ style : 0.000156, content: 0.000000
 
 run [206]:
- style : 1669.152100, content: 0.000000
+ style : 0.000153, content: 0.000000
 
 run [207]:
- style : 1634.918701, content: 0.000000
+ style : 0.000152, content: 0.000000
 
 run [208]:
- style : 1617.024658, content: 0.000000
+ style : 0.000148, content: 0.000000
 
 run [209]:
- style : 1586.026001, content: 0.000000
+ style : 0.000146, content: 0.000000
 
 run [210]:
- style : 1572.827881, content: 0.000000
+ style : 0.000146, content: 0.000000
 
 run [211]:
- style : 1560.515137, content: 0.000000
+ style : 0.000144, content: 0.000000
 
 run [212]:
- style : 1551.494019, content: 0.000000
+ style : 0.000144, content: 0.000000
 
 run [213]:
- style : 1540.658325, content: 0.000000
+ style : 0.000142, content: 0.000000
 
 run [214]:
- style : 1528.458130, content: 0.000000
+ style : 0.000139, content: 0.000000
 
 run [215]:
- style : 1492.163818, content: 0.000000
+ style : 0.000137, content: 0.000000
 
 run [216]:
- style : 1464.080566, content: 0.000000
+ style : 0.000136, content: 0.000000
 
 run [217]:
- style : 1451.607422, content: 0.000000
+ style : 0.000135, content: 0.000000
 
 run [218]:
- style : 1438.968018, content: 0.000000
+ style : 0.000133, content: 0.000000
 
 run [219]:
- style : 1429.015991, content: 0.000000
+ style : 0.000132, content: 0.000000
 
 run [220]:
- style : 1413.977539, content: 0.000000
+ style : 0.000130, content: 0.000000
 
 run [221]:
- style : 1388.494385, content: 0.000000
+ style : 0.000129, content: 0.000000
 
 run [222]:
- style : 1356.807739, content: 0.000000
+ style : 0.000127, content: 0.000000
 
 run [223]:
- style : 1335.151733, content: 0.000000
+ style : 0.000125, content: 0.000000
 
 run [224]:
- style : 1317.933105, content: 0.000000
+ style : 0.000123, content: 0.000000
 
 run [225]:
- style : 1306.445068, content: 0.000000
+ style : 0.000121, content: 0.000000
 
 run [226]:
- style : 1297.359863, content: 0.000000
+ style : 0.000120, content: 0.000000
 
 run [227]:
- style : 1289.645142, content: 0.000000
+ style : 0.000119, content: 0.000000
 
 run [228]:
- style : 1278.035034, content: 0.000000
+ style : 0.000118, content: 0.000000
 
 run [229]:
- style : 1251.062012, content: 0.000000
+ style : 0.000117, content: 0.000000
 
 run [230]:
- style : 1232.505005, content: 0.000000
+ style : 0.000117, content: 0.000000
 
 run [231]:
- style : 1218.783203, content: 0.000000
+ style : 0.000115, content: 0.000000
 
 run [232]:
- style : 1203.517334, content: 0.000000
+ style : 0.000114, content: 0.000000
 
 run [233]:
- style : 1192.307739, content: 0.000000
+ style : 0.000112, content: 0.000000
 
 run [234]:
- style : 1181.062988, content: 0.000000
+ style : 0.000110, content: 0.000000
 
 run [235]:
- style : 1173.059204, content: 0.000000
+ style : 0.000109, content: 0.000000
 
 run [236]:
- style : 1165.509033, content: 0.000000
+ style : 0.000108, content: 0.000000
 
 run [237]:
- style : 1150.999634, content: 0.000000
+ style : 0.000108, content: 0.000000
 
 run [238]:
- style : 1131.157104, content: 0.000000
+ style : 0.000107, content: 0.000000
 
 run [239]:
- style : 1112.423584, content: 0.000000
+ style : 0.000106, content: 0.000000
 
 run [240]:
- style : 1099.979004, content: 0.000000
+ style : 0.000104, content: 0.000000
 
 run [241]:
- style : 1089.152100, content: 0.000000
+ style : 0.000103, content: 0.000000
 
 run [242]:
- style : 1081.983643, content: 0.000000
+ style : 0.000102, content: 0.000000
 
 run [243]:
- style : 1075.869629, content: 0.000000
+ style : 0.000101, content: 0.000000
 
 run [244]:
- style : 1063.820923, content: 0.000000
+ style : 0.000100, content: 0.000000
 
 run [245]:
- style : 1057.765747, content: 0.000000
+ style : 0.000099, content: 0.000000
 
 run [246]:
- style : 1039.053589, content: 0.000000
+ style : 0.000098, content: 0.000000
 
 run [247]:
- style : 1024.775879, content: 0.000000
+ style : 0.000098, content: 0.000000
 
 run [248]:
- style : 1008.397156, content: 0.000000
+ style : 0.000096, content: 0.000000
 
 run [249]:
- style : 999.275085, content: 0.000000
+ style : 0.000095, content: 0.000000
 
 run [250]:
- style : 991.996582, content: 0.000000
+ style : 0.000094, content: 0.000000
 
 run [251]:
- style : 982.902283, content: 0.000000
+ style : 0.000093, content: 0.000000
 
 run [252]:
- style : 976.566101, content: 0.000000
+ style : 0.000092, content: 0.000000
 
 run [253]:
- style : 968.763611, content: 0.000000
+ style : 0.000091, content: 0.000000
 
 run [254]:
- style : 963.098206, content: 0.000000
+ style : 0.000091, content: 0.000000
 
 run [255]:
- style : 956.783936, content: 0.000000
+ style : 0.000090, content: 0.000000
 
 run [256]:
- style : 941.026978, content: 0.000000
+ style : 0.000089, content: 0.000000
 
 run [257]:
- style : 923.928772, content: 0.000000
+ style : 0.000088, content: 0.000000
 
 run [258]:
- style : 914.857788, content: 0.000000
+ style : 0.000087, content: 0.000000
 
 run [259]:
- style : 905.322693, content: 0.000000
+ style : 0.000086, content: 0.000000
 
 run [260]:
- style : 900.267090, content: 0.000000
+ style : 0.000085, content: 0.000000
 
 run [261]:
- style : 897.382874, content: 0.000000
+ style : 0.000084, content: 0.000000
 
 run [262]:
- style : 890.470093, content: 0.000000
+ style : 0.000084, content: 0.000000
 
 run [263]:
- style : 882.630859, content: 0.000000
+ style : 0.000083, content: 0.000000
 
 run [264]:
- style : 869.489075, content: 0.000000
+ style : 0.000082, content: 0.000000
 
 run [265]:
- style : 859.979431, content: 0.000000
+ style : 0.000081, content: 0.000000
 
 run [266]:
- style : 854.871399, content: 0.000000
+ style : 0.000080, content: 0.000000
 
 run [267]:
- style : 847.853027, content: 0.000000
+ style : 0.000080, content: 0.000000
 
 run [268]:
- style : 838.592407, content: 0.000000
+ style : 0.000080, content: 0.000000
 
 run [269]:
- style : 827.528625, content: 0.000000
+ style : 0.000078, content: 0.000000
 
 run [270]:
- style : 819.015137, content: 0.000000
+ style : 0.000077, content: 0.000000
 
 run [271]:
- style : 808.573975, content: 0.000000
+ style : 0.000077, content: 0.000000
 
 run [272]:
- style : 801.901062, content: 0.000000
+ style : 0.000076, content: 0.000000
 
 run [273]:
- style : 792.887268, content: 0.000000
+ style : 0.000075, content: 0.000000
 
 run [274]:
- style : 787.629761, content: 0.000000
+ style : 0.000074, content: 0.000000
 
 run [275]:
- style : 780.658386, content: 0.000000
+ style : 0.000073, content: 0.000000
 
 run [276]:
- style : 776.356995, content: 0.000000
+ style : 0.000072, content: 0.000000
 
 run [277]:
- style : 771.413452, content: 0.000000
+ style : 0.000072, content: 0.000000
 
 run [278]:
- style : 764.000122, content: 0.000000
+ style : 0.000071, content: 0.000000
 
 run [279]:
- style : 755.470947, content: 0.000000
+ style : 0.000071, content: 0.000000
 
 run [280]:
- style : 744.765137, content: 0.000000
+ style : 0.000071, content: 0.000000
 
 run [281]:
- style : 737.222656, content: 0.000000
+ style : 0.000070, content: 0.000000
 
 run [282]:
- style : 729.346802, content: 0.000000
+ style : 0.000069, content: 0.000000
 
 run [283]:
- style : 723.660034, content: 0.000000
+ style : 0.000068, content: 0.000000
 
 run [284]:
- style : 720.007812, content: 0.000000
+ style : 0.000068, content: 0.000000
 
 run [285]:
- style : 715.389709, content: 0.000000
+ style : 0.000067, content: 0.000000
 
 run [286]:
- style : 711.176636, content: 0.000000
+ style : 0.000066, content: 0.000000
 
 run [287]:
- style : 704.023865, content: 0.000000
+ style : 0.000066, content: 0.000000
 
 run [288]:
- style : 696.286011, content: 0.000000
+ style : 0.000065, content: 0.000000
 
 run [289]:
- style : 686.583862, content: 0.000000
+ style : 0.000065, content: 0.000000
 
 run [290]:
- style : 676.884766, content: 0.000000
+ style : 0.000064, content: 0.000000
 
 run [291]:
- style : 671.486145, content: 0.000000
+ style : 0.000063, content: 0.000000
 
 run [292]:
- style : 667.055664, content: 0.000000
+ style : 0.000062, content: 0.000000
 
 run [293]:
- style : 663.562805, content: 0.000000
+ style : 0.000062, content: 0.000000
 
 run [294]:
- style : 660.007446, content: 0.000000
+ style : 0.000062, content: 0.000000
 
 run [295]:
- style : 654.510376, content: 0.000000
+ style : 0.000061, content: 0.000000
 
 run [296]:
- style : 650.935913, content: 0.000000
+ style : 0.000060, content: 0.000000
 
 run [297]:
- style : 644.267151, content: 0.000000
+ style : 0.000060, content: 0.000000
 
 run [298]:
- style : 637.124390, content: 0.000000
+ style : 0.000059, content: 0.000000
 
 run [299]:
- style : 631.237488, content: 0.000000
+ style : 0.000059, content: 0.000000
 
 run [300]:
- style : 626.729187, content: 0.000000
+ style : 0.000058, content: 0.000000
 
 run [301]:
- style : 623.735962, content: 0.000000
+ style : 0.000058, content: 0.000000
 
 run [302]:
- style : 618.952271, content: 0.000000
+ style : 0.000057, content: 0.000000
 
 run [303]:
- style : 613.739807, content: 0.000000
+ style : 0.000057, content: 0.000000
 
 run [304]:
- style : 609.499329, content: 0.000000
+ style : 0.000056, content: 0.000000
 
 run [305]:
- style : 605.587646, content: 0.000000
+ style : 0.000055, content: 0.000000
 
 run [306]:
- style : 599.966797, content: 0.000000
+ style : 0.000055, content: 0.000000
 
 run [307]:
- style : 590.271423, content: 0.000000
+ style : 0.000055, content: 0.000000
 
 run [308]:
- style : 587.836914, content: 0.000000
+ style : 0.000054, content: 0.000000
 
 run [309]:
- style : 579.642395, content: 0.000000
+ style : 0.000054, content: 0.000000
 
 run [310]:
- style : 576.387695, content: 0.000000
+ style : 0.000053, content: 0.000000
 
 run [311]:
- style : 573.240479, content: 0.000000
+ style : 0.000053, content: 0.000000
 
 run [312]:
- style : 567.574585, content: 0.000000
+ style : 0.000052, content: 0.000000
 
 run [313]:
- style : 561.365356, content: 0.000000
+ style : 0.000052, content: 0.000000
 
 run [314]:
- style : 555.978333, content: 0.000000
+ style : 0.000052, content: 0.000000
 
 run [315]:
- style : 551.217407, content: 0.000000
+ style : 0.000051, content: 0.000000
 
 run [316]:
- style : 546.747742, content: 0.000000
+ style : 0.000051, content: 0.000000
 
 run [317]:
- style : 541.825012, content: 0.000000
+ style : 0.000051, content: 0.000000
 
 run [318]:
- style : 535.609192, content: 0.000000
+ style : 0.000050, content: 0.000000
 
 run [319]:
- style : 534.247986, content: 0.000000
+ style : 0.000050, content: 0.000000
 
 run [320]:
- style : 531.128418, content: 0.000000
+ style : 0.000050, content: 0.000000
 
 run [321]:
- style : 529.612793, content: 0.000000
+ style : 0.000049, content: 0.000000
 
 run [322]:
- style : 526.060181, content: 0.000000
+ style : 0.000049, content: 0.000000
 
 run [323]:
- style : 521.299988, content: 0.000000
+ style : 0.000048, content: 0.000000
 
 run [324]:
- style : 515.573059, content: 0.000000
+ style : 0.000048, content: 0.000000
 
 run [325]:
- style : 511.174042, content: 0.000000
+ style : 0.000048, content: 0.000000
 
 run [326]:
- style : 507.667786, content: 0.000000
+ style : 0.000047, content: 0.000000
 
 run [327]:
- style : 501.841278, content: 0.000000
+ style : 0.000047, content: 0.000000
 
 run [328]:
- style : 496.600250, content: 0.000000
+ style : 0.000047, content: 0.000000
 
 run [329]:
- style : 493.312286, content: 0.000000
+ style : 0.000046, content: 0.000000
 
 run [330]:
- style : 490.597229, content: 0.000000
+ style : 0.000046, content: 0.000000
 
 run [331]:
- style : 487.854492, content: 0.000000
+ style : 0.000045, content: 0.000000
 
 run [332]:
- style : 482.165802, content: 0.000000
+ style : 0.000045, content: 0.000000
 
 run [333]:
- style : 478.571320, content: 0.000000
+ style : 0.000045, content: 0.000000
 
 run [334]:
- style : 474.418182, content: 0.000000
+ style : 0.000045, content: 0.000000
 
 run [335]:
- style : 472.375549, content: 0.000000
+ style : 0.000044, content: 0.000000
 
 run [336]:
- style : 468.584503, content: 0.000000
+ style : 0.000044, content: 0.000000
 
 run [337]:
- style : 463.830170, content: 0.000000
+ style : 0.000044, content: 0.000000
 
 run [338]:
- style : 459.535187, content: 0.000000
+ style : 0.000043, content: 0.000000
 
 run [339]:
- style : 456.808472, content: 0.000000
+ style : 0.000043, content: 0.000000
 
 run [340]:
- style : 453.473267, content: 0.000000
+ style : 0.000043, content: 0.000000
 
 run [341]:
- style : 447.856476, content: 0.000000
+ style : 0.000042, content: 0.000000
 
 run [342]:
- style : 450.575317, content: 0.000000
+ style : 0.000042, content: 0.000000
 
 run [343]:
- style : 441.100281, content: 0.000000
+ style : 0.000042, content: 0.000000
 
 run [344]:
- style : 439.569153, content: 0.000000
+ style : 0.000042, content: 0.000000
 
 run [345]:
- style : 438.363464, content: 0.000000
+ style : 0.000041, content: 0.000000
 
 run [346]:
- style : 435.750336, content: 0.000000
+ style : 0.000041, content: 0.000000
 
 run [347]:
- style : 431.907043, content: 0.000000
+ style : 0.000041, content: 0.000000
 
 run [348]:
- style : 428.751373, content: 0.000000
+ style : 0.000040, content: 0.000000
 
 run [349]:
- style : 423.821533, content: 0.000000
+ style : 0.000040, content: 0.000000
 
 run [350]:
- style : 421.782898, content: 0.000000
+ style : 0.000040, content: 0.000000
 
 run [351]:
- style : 418.936493, content: 0.000000
+ style : 0.000039, content: 0.000000
 
 run [352]:
- style : 415.205292, content: 0.000000
+ style : 0.000039, content: 0.000000
 
 run [353]:
- style : 411.217621, content: 0.000000
+ style : 0.000039, content: 0.000000
 
 run [354]:
- style : 408.741608, content: 0.000000
+ style : 0.000039, content: 0.000000
 
 run [355]:
- style : 406.738403, content: 0.000000
+ style : 0.000038, content: 0.000000
 
 run [356]:
- style : 404.517456, content: 0.000000
+ style : 0.000038, content: 0.000000
 
 run [357]:
- style : 401.754791, content: 0.000000
+ style : 0.000038, content: 0.000000
 
 run [358]:
- style : 397.718719, content: 0.000000
+ style : 0.000038, content: 0.000000
 
 run [359]:
- style : 393.465668, content: 0.000000
+ style : 0.000037, content: 0.000000
 
 run [360]:
- style : 390.668854, content: 0.000000
+ style : 0.000037, content: 0.000000
 
 run [361]:
- style : 387.850983, content: 0.000000
+ style : 0.000037, content: 0.000000
 
 run [362]:
- style : 385.311646, content: 0.000000
+ style : 0.000036, content: 0.000000
 
 run [363]:
- style : 382.690491, content: 0.000000
+ style : 0.000036, content: 0.000000
 
 run [364]:
- style : 380.099640, content: 0.000000
+ style : 0.000036, content: 0.000000
 
 run [365]:
- style : 376.997955, content: 0.000000
+ style : 0.000036, content: 0.000000
 
 run [366]:
- style : 374.539490, content: 0.000000
+ style : 0.000035, content: 0.000000
 
 run [367]:
- style : 372.380676, content: 0.000000
+ style : 0.000035, content: 0.000000
 
 run [368]:
- style : 370.034332, content: 0.000000
+ style : 0.000035, content: 0.000000
 
 run [369]:
- style : 368.061676, content: 0.000000
+ style : 0.000035, content: 0.000000
 
 run [370]:
- style : 366.031769, content: 0.000000
+ style : 0.000035, content: 0.000000
 
 run [371]:
- style : 362.783722, content: 0.000000
+ style : 0.000034, content: 0.000000
 
 run [372]:
- style : 358.926910, content: 0.000000
+ style : 0.000034, content: 0.000000
 
 run [373]:
- style : 358.156525, content: 0.000000
+ style : 0.000034, content: 0.000000
 
 run [374]:
- style : 354.410706, content: 0.000000
+ style : 0.000034, content: 0.000000
 
 run [375]:
- style : 352.645813, content: 0.000000
+ style : 0.000033, content: 0.000000
 
 run [376]:
- style : 350.610779, content: 0.000000
+ style : 0.000033, content: 0.000000
 
 run [377]:
- style : 348.936584, content: 0.000000
+ style : 0.000033, content: 0.000000
 
 run [378]:
- style : 347.431641, content: 0.000000
+ style : 0.000033, content: 0.000000
 
 run [379]:
- style : 345.976685, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [380]:
- style : 343.306793, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [381]:
- style : 340.590729, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [382]:
- style : 338.012878, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [383]:
- style : 336.562622, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [384]:
- style : 335.363647, content: 0.000000
+ style : 0.000032, content: 0.000000
 
 run [385]:
- style : 333.544342, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [386]:
- style : 330.774933, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [387]:
- style : 330.462830, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [388]:
- style : 326.972107, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [389]:
- style : 326.094818, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [390]:
- style : 324.409637, content: 0.000000
+ style : 0.000031, content: 0.000000
 
 run [391]:
- style : 321.726013, content: 0.000000
+ style : 0.000030, content: 0.000000
 
 run [392]:
- style : 318.721527, content: 0.000000
+ style : 0.000030, content: 0.000000
 
 run [393]:
- style : 317.118073, content: 0.000000
+ style : 0.000030, content: 0.000000
 
 run [394]:
- style : 315.611328, content: 0.000000
+ style : 0.000030, content: 0.000000
 
 run [395]:
- style : 314.591888, content: 0.000000
+ style : 0.000030, content: 0.000000
 
 run [396]:
- style : 312.938660, content: 0.000000
+ style : 0.000029, content: 0.000000
 
 run [397]:
- style : 310.444733, content: 0.000000
+ style : 0.000029, content: 0.000000
 
 run [398]:
- style : 311.576447, content: 0.000000
+ style : 0.000029, content: 0.000000
 
 run [399]:
- style : 307.531525, content: 0.000000
+ style : 0.000029, content: 0.000000
 
 run [400]:
- style : 306.556030, content: 0.000000
+ style : 0.000029, content: 0.000000
 
 run [401]:
- style : 304.777039, content: 0.000000
+ style : 0.000028, content: 0.000000
 
 run [402]:
- style : 302.319977, content: 0.000000
+ style : 0.000028, content: 0.000000
 
 run [403]:
- style : 299.889618, content: 0.000000
+ style : 0.000028, content: 0.000000
 
 run [404]:
- style : 298.033112, content: 0.000000
+ style : 0.000028, content: 0.000000
 
 run [405]:
- style : 296.015747, content: 0.000000
+ style : 0.000028, content: 0.000000
 
 run [406]:
- style : 293.904144, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [407]:
- style : 292.949493, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [408]:
- style : 291.834747, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [409]:
- style : 290.082275, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [410]:
- style : 286.932983, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [411]:
- style : 285.489227, content: 0.000000
+ style : 0.000027, content: 0.000000
 
 run [412]:
- style : 282.987152, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [413]:
- style : 281.167145, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [414]:
- style : 279.302734, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [415]:
- style : 277.350769, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [416]:
- style : 276.157562, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [417]:
- style : 275.123444, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [418]:
- style : 273.534332, content: 0.000000
+ style : 0.000026, content: 0.000000
 
 run [419]:
- style : 273.230865, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [420]:
- style : 270.453735, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [421]:
- style : 269.398010, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [422]:
- style : 268.069092, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [423]:
- style : 265.804749, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [424]:
- style : 263.646118, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [425]:
- style : 261.602936, content: 0.000000
+ style : 0.000025, content: 0.000000
 
 run [426]:
- style : 260.516937, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [427]:
- style : 258.738647, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [428]:
- style : 257.482880, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [429]:
- style : 256.326050, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [430]:
- style : 254.747391, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [431]:
- style : 253.962952, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [432]:
- style : 251.811966, content: 0.000000
+ style : 0.000024, content: 0.000000
 
 run [433]:
- style : 251.164093, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [434]:
- style : 248.488220, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [435]:
- style : 247.636185, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [436]:
- style : 246.648300, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [437]:
- style : 245.228760, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [438]:
- style : 243.696808, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [439]:
- style : 242.235184, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [440]:
- style : 240.757614, content: 0.000000
+ style : 0.000023, content: 0.000000
 
 run [441]:
- style : 238.813995, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [442]:
- style : 238.886673, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [443]:
- style : 236.129501, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [444]:
- style : 235.621780, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [445]:
- style : 234.991440, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [446]:
- style : 234.228943, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [447]:
- style : 233.101273, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [448]:
- style : 231.978485, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [449]:
- style : 230.129044, content: 0.000000
+ style : 0.000022, content: 0.000000
 
 run [450]:
- style : 229.118973, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [451]:
- style : 227.896744, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [452]:
- style : 226.119705, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [453]:
- style : 225.736191, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [454]:
- style : 223.228714, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [455]:
- style : 222.595779, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [456]:
- style : 221.862152, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [457]:
- style : 220.572952, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [458]:
- style : 219.405899, content: 0.000000
+ style : 0.000021, content: 0.000000
 
 run [459]:
- style : 218.385727, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [460]:
- style : 216.788300, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [461]:
- style : 214.934601, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [462]:
- style : 213.206345, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [463]:
- style : 212.081726, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [464]:
- style : 211.339005, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [465]:
- style : 210.502136, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [466]:
- style : 208.392212, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [467]:
- style : 206.237686, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [468]:
- style : 205.370056, content: 0.000000
+ style : 0.000020, content: 0.000000
 
 run [469]:
- style : 204.161377, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [470]:
- style : 202.964737, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [471]:
- style : 201.826126, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [472]:
- style : 200.435425, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [473]:
- style : 199.118561, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [474]:
- style : 198.475159, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [475]:
- style : 197.838455, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [476]:
- style : 197.445297, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [477]:
- style : 196.655746, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [478]:
- style : 195.301102, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [479]:
- style : 194.945236, content: 0.000000
+ style : 0.000019, content: 0.000000
 
 run [480]:
- style : 193.092606, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [481]:
- style : 192.501404, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [482]:
- style : 191.672211, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [483]:
- style : 190.791275, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [484]:
- style : 189.889816, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [485]:
- style : 188.767166, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [486]:
- style : 187.456116, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [487]:
- style : 186.645309, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [488]:
- style : 185.511795, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [489]:
- style : 184.506332, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [490]:
- style : 183.474915, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [491]:
- style : 182.671082, content: 0.000000
+ style : 0.000018, content: 0.000000
 
 run [492]:
- style : 182.162186, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [493]:
- style : 181.684662, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [494]:
- style : 180.408203, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [495]:
- style : 179.844513, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [496]:
- style : 177.839218, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [497]:
- style : 177.240982, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [498]:
- style : 176.081696, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [499]:
- style : 175.018921, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [500]:
- style : 173.911972, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [501]:
- style : 173.274307, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [502]:
- style : 172.852448, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [503]:
- style : 172.619385, content: 0.000000
+ style : 0.000017, content: 0.000000
 
 run [504]:
- style : 172.261887, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [505]:
- style : 171.591675, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [506]:
- style : 170.588943, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [507]:
- style : 170.095337, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [508]:
- style : 168.613754, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [509]:
- style : 168.019745, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [510]:
- style : 167.249786, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [511]:
- style : 165.673721, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [512]:
- style : 165.098969, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [513]:
- style : 164.050797, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [514]:
- style : 163.781357, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [515]:
- style : 163.496368, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [516]:
- style : 162.800110, content: 0.000000
+ style : 0.000016, content: 0.000000
 
 run [517]:
- style : 162.045578, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [518]:
- style : 160.690948, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [519]:
- style : 159.677795, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [520]:
- style : 158.903458, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [521]:
- style : 158.416260, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [522]:
- style : 158.008408, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [523]:
- style : 157.418152, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [524]:
- style : 156.445938, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [525]:
- style : 156.624542, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [526]:
- style : 155.097610, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [527]:
- style : 154.659775, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [528]:
- style : 153.713867, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [529]:
- style : 152.798172, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [530]:
- style : 151.961029, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [531]:
- style : 151.174606, content: 0.000000
+ style : 0.000015, content: 0.000000
 
 run [532]:
- style : 150.541565, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [533]:
- style : 150.041534, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [534]:
- style : 149.536499, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [535]:
- style : 149.020584, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [536]:
- style : 148.165207, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [537]:
- style : 147.317566, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [538]:
- style : 147.144730, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [539]:
- style : 146.060974, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [540]:
- style : 145.622604, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [541]:
- style : 145.179932, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [542]:
- style : 144.783554, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [543]:
- style : 144.209167, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [544]:
- style : 143.133575, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [545]:
- style : 142.469864, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [546]:
- style : 141.494171, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [547]:
- style : 141.206268, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [548]:
- style : 140.889008, content: 0.000000
+ style : 0.000014, content: 0.000000
 
 run [549]:
- style : 140.214737, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [550]:
- style : 139.176361, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [551]:
- style : 138.644821, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [552]:
- style : 137.785553, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [553]:
- style : 137.250366, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [554]:
- style : 136.595825, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [555]:
- style : 135.639297, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [556]:
- style : 134.891907, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [557]:
- style : 134.491623, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [558]:
- style : 134.265579, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [559]:
- style : 133.920807, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [560]:
- style : 133.032791, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [561]:
- style : 132.449844, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [562]:
- style : 131.680435, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [563]:
- style : 131.153580, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [564]:
- style : 130.528046, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [565]:
- style : 130.711029, content: 0.000000
+ style : 0.000013, content: 0.000000
 
 run [566]:
- style : 129.182571, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [567]:
- style : 128.734299, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [568]:
- style : 128.443314, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [569]:
- style : 128.144241, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [570]:
- style : 127.720085, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [571]:
- style : 127.247787, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [572]:
- style : 126.264893, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [573]:
- style : 125.497047, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [574]:
- style : 124.470909, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [575]:
- style : 123.919273, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [576]:
- style : 123.394958, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [577]:
- style : 122.949387, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [578]:
- style : 122.389008, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [579]:
- style : 121.933815, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [580]:
- style : 121.701523, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [581]:
- style : 121.557343, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [582]:
- style : 121.178894, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [583]:
- style : 120.752357, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [584]:
- style : 120.041931, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [585]:
- style : 120.466736, content: 0.000000
+ style : 0.000012, content: 0.000000
 
 run [586]:
- style : 119.212753, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [587]:
- style : 118.956429, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [588]:
- style : 118.522942, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [589]:
- style : 117.894051, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [590]:
- style : 117.240257, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [591]:
- style : 116.720039, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [592]:
- style : 116.135818, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [593]:
- style : 115.688255, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [594]:
- style : 115.412766, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [595]:
- style : 115.104889, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [596]:
- style : 114.767006, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [597]:
- style : 114.303772, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [598]:
- style : 113.822060, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [599]:
- style : 113.111801, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [600]:
- style : 112.759293, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [601]:
- style : 112.063683, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [602]:
- style : 111.598640, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [603]:
- style : 111.227798, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [604]:
- style : 110.839912, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [605]:
- style : 110.498428, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [606]:
- style : 110.144455, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [607]:
- style : 109.819374, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [608]:
- style : 109.310219, content: 0.000000
+ style : 0.000011, content: 0.000000
 
 run [609]:
- style : 108.813492, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [610]:
- style : 108.355110, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [611]:
- style : 107.977928, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [612]:
- style : 107.307175, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [613]:
- style : 107.032463, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [614]:
- style : 106.578903, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [615]:
- style : 106.054688, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [616]:
- style : 105.780693, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [617]:
- style : 105.405663, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [618]:
- style : 105.234665, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [619]:
- style : 104.819473, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [620]:
- style : 105.036789, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [621]:
- style : 104.125076, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [622]:
- style : 103.971870, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [623]:
- style : 103.568489, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [624]:
- style : 103.186172, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [625]:
- style : 102.714638, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [626]:
- style : 102.410423, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [627]:
- style : 102.001923, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [628]:
- style : 101.576172, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [629]:
- style : 101.023476, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [630]:
- style : 100.491653, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [631]:
- style : 100.142082, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [632]:
- style : 99.954506, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [633]:
- style : 99.793732, content: 0.000000
+ style : 0.000010, content: 0.000000
 
 run [634]:
- style : 99.432335, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [635]:
- style : 99.174156, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [636]:
- style : 98.613693, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [637]:
- style : 98.339989, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [638]:
- style : 98.045120, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [639]:
- style : 97.864792, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [640]:
- style : 97.649353, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [641]:
- style : 97.199554, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [642]:
- style : 96.693481, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [643]:
- style : 96.253761, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [644]:
- style : 95.810028, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [645]:
- style : 95.492035, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [646]:
- style : 94.917633, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [647]:
- style : 94.660255, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [648]:
- style : 94.081459, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [649]:
- style : 93.876740, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [650]:
- style : 93.681503, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [651]:
- style : 93.513855, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [652]:
- style : 93.203270, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [653]:
- style : 92.816589, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [654]:
- style : 92.076096, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [655]:
- style : 91.863495, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [656]:
- style : 91.288536, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [657]:
- style : 91.119102, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [658]:
- style : 90.944992, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [659]:
- style : 90.744148, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [660]:
- style : 90.256111, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [661]:
- style : 90.652199, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [662]:
- style : 89.662292, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [663]:
- style : 89.498589, content: 0.000000
+ style : 0.000009, content: 0.000000
 
 run [664]:
- style : 89.225632, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [665]:
- style : 88.997101, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [666]:
- style : 88.651947, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [667]:
- style : 88.147316, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [668]:
- style : 87.625870, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [669]:
- style : 87.492889, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [670]:
- style : 87.207733, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [671]:
- style : 87.023460, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [672]:
- style : 86.804245, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [673]:
- style : 86.587791, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [674]:
- style : 86.448036, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [675]:
- style : 86.300186, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [676]:
- style : 86.003532, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [677]:
- style : 85.580147, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [678]:
- style : 85.370819, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [679]:
- style : 84.953117, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [680]:
- style : 84.741982, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [681]:
- style : 84.500031, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [682]:
- style : 84.180138, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [683]:
- style : 83.839996, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [684]:
- style : 83.596962, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [685]:
- style : 83.334938, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [686]:
- style : 83.029030, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [687]:
- style : 82.639946, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [688]:
- style : 82.788902, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [689]:
- style : 82.249191, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [690]:
- style : 82.118294, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [691]:
- style : 81.840157, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [692]:
- style : 81.573334, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [693]:
- style : 81.221252, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [694]:
- style : 80.969795, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [695]:
- style : 80.779312, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [696]:
- style : 80.542892, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [697]:
- style : 80.222893, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [698]:
- style : 79.976051, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [699]:
- style : 79.746651, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [700]:
- style : 79.560577, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [701]:
- style : 79.303329, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [702]:
- style : 78.920509, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [703]:
- style : 78.605988, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [704]:
- style : 78.401733, content: 0.000000
+ style : 0.000008, content: 0.000000
 
 run [705]:
- style : 78.072571, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [706]:
- style : 77.891235, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [707]:
- style : 77.710686, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [708]:
- style : 77.587921, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [709]:
- style : 77.321381, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [710]:
- style : 76.884529, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [711]:
- style : 76.605263, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [712]:
- style : 76.317703, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [713]:
- style : 76.121330, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [714]:
- style : 75.874435, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [715]:
- style : 75.737083, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [716]:
- style : 75.402100, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [717]:
- style : 75.252655, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [718]:
- style : 75.065865, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [719]:
- style : 74.842827, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [720]:
- style : 74.598587, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [721]:
- style : 74.380249, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [722]:
- style : 74.158646, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [723]:
- style : 73.816635, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [724]:
- style : 73.793816, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [725]:
- style : 73.240616, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [726]:
- style : 73.032722, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [727]:
- style : 72.872002, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [728]:
- style : 72.696159, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [729]:
- style : 72.519493, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [730]:
- style : 72.317299, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [731]:
- style : 72.094711, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [732]:
- style : 71.763191, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [733]:
- style : 71.535957, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [734]:
- style : 71.315918, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [735]:
- style : 71.151466, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [736]:
- style : 70.962448, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [737]:
- style : 70.657585, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [738]:
- style : 70.380592, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [739]:
- style : 70.181297, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [740]:
- style : 69.983025, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [741]:
- style : 69.811989, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [742]:
- style : 69.574188, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [743]:
- style : 69.330841, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [744]:
- style : 69.265640, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [745]:
- style : 69.163918, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [746]:
- style : 69.086388, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [747]:
- style : 68.967369, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [748]:
- style : 68.791832, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [749]:
- style : 68.374733, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [750]:
- style : 68.191208, content: 0.000000
+ style : 0.000007, content: 0.000000
 
 run [751]:
- style : 67.905289, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [752]:
- style : 67.748009, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [753]:
- style : 67.549988, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [754]:
- style : 67.322533, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [755]:
- style : 67.085945, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [756]:
- style : 66.871246, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [757]:
- style : 66.572678, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [758]:
- style : 66.406410, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [759]:
- style : 66.272705, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [760]:
- style : 66.160011, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [761]:
- style : 66.041779, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [762]:
- style : 65.865494, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [763]:
- style : 65.527527, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [764]:
- style : 65.280930, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [765]:
- style : 65.026382, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [766]:
- style : 64.826172, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [767]:
- style : 64.561142, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [768]:
- style : 64.323929, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [769]:
- style : 64.087883, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [770]:
- style : 63.738255, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [771]:
- style : 63.499874, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [772]:
- style : 63.412281, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [773]:
- style : 63.267517, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [774]:
- style : 63.201439, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [775]:
- style : 63.040520, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [776]:
- style : 62.778671, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [777]:
- style : 62.445934, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [778]:
- style : 62.564030, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [779]:
- style : 62.116779, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [780]:
- style : 62.049263, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [781]:
- style : 61.910076, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [782]:
- style : 61.693481, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [783]:
- style : 61.460346, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [784]:
- style : 61.270958, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [785]:
- style : 61.042221, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [786]:
- style : 60.870144, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [787]:
- style : 60.681889, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [788]:
- style : 60.501053, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [789]:
- style : 60.329327, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [790]:
- style : 60.103542, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [791]:
- style : 59.924488, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [792]:
- style : 59.886600, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [793]:
- style : 59.611595, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [794]:
- style : 59.559952, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [795]:
- style : 59.492985, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [796]:
- style : 59.372585, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [797]:
- style : 59.204758, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [798]:
- style : 58.840897, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [799]:
- style : 59.092762, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [800]:
- style : 58.504101, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [801]:
- style : 58.426235, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [802]:
- style : 58.297958, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [803]:
- style : 58.014950, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [804]:
- style : 57.733231, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [805]:
- style : 57.604012, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [806]:
- style : 57.508144, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [807]:
- style : 57.429234, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [808]:
- style : 57.242477, content: 0.000000
+ style : 0.000006, content: 0.000000
 
 run [809]:
- style : 57.007595, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [810]:
- style : 56.856953, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [811]:
- style : 56.577190, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [812]:
- style : 56.411190, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [813]:
- style : 56.224403, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [814]:
- style : 56.028004, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [815]:
- style : 55.878445, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [816]:
- style : 55.760998, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [817]:
- style : 55.652267, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [818]:
- style : 55.563503, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [819]:
- style : 55.426159, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [820]:
- style : 55.240170, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [821]:
- style : 55.150238, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [822]:
- style : 54.946758, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [823]:
- style : 54.866127, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [824]:
- style : 54.720898, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [825]:
- style : 54.498779, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [826]:
- style : 54.241993, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [827]:
- style : 54.092499, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [828]:
- style : 53.954773, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [829]:
- style : 53.791664, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [830]:
- style : 53.609272, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [831]:
- style : 53.431194, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [832]:
- style : 53.311829, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [833]:
- style : 53.223404, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [834]:
- style : 53.168995, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [835]:
- style : 53.013000, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [836]:
- style : 52.886375, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [837]:
- style : 52.854065, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [838]:
- style : 52.611885, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [839]:
- style : 52.539196, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [840]:
- style : 52.419189, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [841]:
- style : 52.270279, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [842]:
- style : 52.101776, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [843]:
- style : 51.967003, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [844]:
- style : 51.834949, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [845]:
- style : 51.712879, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [846]:
- style : 51.610336, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [847]:
- style : 51.527496, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [848]:
- style : 51.407104, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [849]:
- style : 51.224346, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [850]:
- style : 51.068901, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [851]:
- style : 50.956455, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [852]:
- style : 50.897411, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [853]:
- style : 50.775097, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [854]:
- style : 50.605743, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [855]:
- style : 50.489864, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [856]:
- style : 50.340401, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [857]:
- style : 50.188229, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [858]:
- style : 50.036209, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [859]:
- style : 49.890781, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [860]:
- style : 49.657944, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [861]:
- style : 49.702007, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [862]:
- style : 49.309433, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [863]:
- style : 49.228737, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [864]:
- style : 49.127773, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [865]:
- style : 49.057373, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [866]:
- style : 48.995216, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [867]:
- style : 48.855362, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [868]:
- style : 48.785549, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [869]:
- style : 48.599121, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [870]:
- style : 48.508335, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [871]:
- style : 48.391983, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [872]:
- style : 48.278053, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [873]:
- style : 48.193806, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [874]:
- style : 47.976395, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [875]:
- style : 47.914417, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [876]:
- style : 47.722935, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [877]:
- style : 47.661201, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [878]:
- style : 47.594406, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [879]:
- style : 47.527416, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [880]:
- style : 47.411102, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [881]:
- style : 47.319447, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [882]:
- style : 47.135277, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [883]:
- style : 47.035637, content: 0.000000
+ style : 0.000005, content: 0.000000
 
 run [884]:
- style : 46.946026, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [885]:
- style : 46.705723, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [886]:
- style : 46.624908, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [887]:
- style : 46.555237, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [888]:
- style : 46.417305, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [889]:
- style : 46.306004, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [890]:
- style : 46.229435, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [891]:
- style : 46.086739, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [892]:
- style : 45.927444, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [893]:
- style : 45.759804, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [894]:
- style : 45.640751, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [895]:
- style : 45.525932, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [896]:
- style : 45.435085, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [897]:
- style : 45.270836, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [898]:
- style : 45.165234, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [899]:
- style : 45.092052, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [900]:
- style : 45.027790, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [901]:
- style : 44.892895, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [902]:
- style : 44.722057, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [903]:
- style : 44.573997, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [904]:
- style : 44.489662, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [905]:
- style : 44.339954, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [906]:
- style : 44.229637, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [907]:
- style : 44.095894, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [908]:
- style : 44.002651, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [909]:
- style : 43.957981, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [910]:
- style : 43.890221, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [911]:
- style : 43.800686, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [912]:
- style : 43.705982, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [913]:
- style : 43.566380, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [914]:
- style : 43.398186, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [915]:
- style : 43.272129, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [916]:
- style : 43.166077, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [917]:
- style : 43.070469, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [918]:
- style : 42.941055, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [919]:
- style : 42.901230, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [920]:
- style : 42.690140, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [921]:
- style : 42.541031, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [922]:
- style : 42.446133, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [923]:
- style : 42.363323, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [924]:
- style : 42.285851, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [925]:
- style : 42.182091, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [926]:
- style : 42.057995, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [927]:
- style : 41.867096, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [928]:
- style : 41.803196, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [929]:
- style : 41.700989, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [930]:
- style : 41.654129, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [931]:
- style : 41.578617, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [932]:
- style : 41.453644, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [933]:
- style : 41.331318, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [934]:
- style : 41.215645, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [935]:
- style : 41.101357, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [936]:
- style : 41.000584, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [937]:
- style : 40.933155, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [938]:
- style : 40.868134, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [939]:
- style : 40.810020, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [940]:
- style : 40.679752, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [941]:
- style : 40.677959, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [942]:
- style : 40.471581, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [943]:
- style : 40.409569, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [944]:
- style : 40.312397, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [945]:
- style : 40.189598, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [946]:
- style : 40.064606, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [947]:
- style : 39.945107, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [948]:
- style : 39.849945, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [949]:
- style : 39.758705, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [950]:
- style : 39.693913, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [951]:
- style : 39.633114, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [952]:
- style : 39.563839, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [953]:
- style : 39.516857, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [954]:
- style : 39.368698, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [955]:
- style : 39.896496, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [956]:
- style : 39.183895, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [957]:
- style : 39.139027, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [958]:
- style : 39.076519, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [959]:
- style : 38.956295, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [960]:
- style : 38.843399, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [961]:
- style : 38.765739, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [962]:
- style : 38.684574, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [963]:
- style : 38.578930, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [964]:
- style : 38.449699, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [965]:
- style : 38.368042, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [966]:
- style : 38.319191, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [967]:
- style : 38.231602, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [968]:
- style : 38.134476, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [969]:
- style : 38.032005, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [970]:
- style : 37.961887, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [971]:
- style : 37.883972, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [972]:
- style : 37.799706, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [973]:
- style : 37.663757, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [974]:
- style : 37.586460, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [975]:
- style : 37.470917, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [976]:
- style : 37.423378, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [977]:
- style : 37.354473, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [978]:
- style : 37.281933, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [979]:
- style : 37.182514, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [980]:
- style : 37.103001, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [981]:
- style : 37.001968, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [982]:
- style : 36.912785, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [983]:
- style : 36.809559, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [984]:
- style : 36.723572, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [985]:
- style : 36.647846, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [986]:
- style : 36.565777, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [987]:
- style : 36.491680, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [988]:
- style : 36.373535, content: 0.000000
+ style : 0.000004, content: 0.000000
 
 run [989]:
- style : 36.302853, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [990]:
- style : 36.231796, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [991]:
- style : 36.160172, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [992]:
- style : 36.089046, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [993]:
- style : 35.982170, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [994]:
- style : 35.917728, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [995]:
- style : 35.867775, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [996]:
- style : 35.815872, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [997]:
- style : 35.684650, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [998]:
- style : 35.589352, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [999]:
- style : 35.507832, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1000]:
- style : 35.454941, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1001]:
- style : 35.388618, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1002]:
- style : 35.314812, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1003]:
- style : 35.229355, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1004]:
- style : 35.138554, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1005]:
- style : 35.057991, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1006]:
- style : 34.982811, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1007]:
- style : 34.919605, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1008]:
- style : 34.834263, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1009]:
- style : 34.748356, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1010]:
- style : 34.652954, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1011]:
- style : 34.576511, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1012]:
- style : 34.495872, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1013]:
- style : 34.414825, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1014]:
- style : 34.351295, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1015]:
- style : 34.290943, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1016]:
- style : 34.204777, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1017]:
- style : 34.088772, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1018]:
- style : 34.020916, content: 0.000000
+ style : 0.000003, content: 0.000000
 
 run [1019]:
- style : 33.950863, content: 0.000000
+ style : 0.000003, content: 0.000000

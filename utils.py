@@ -16,6 +16,7 @@ import torch
 from torch.autograd import Variable
 from torchvision import models
 from torchvision import utils as vutils
+from torchvision import transforms
 from collections import namedtuple
 import pdb
 import copy
@@ -26,6 +27,91 @@ from model import LaplacianFilter
 import asyncio
 import aiohttp
 import async_timeout
+
+
+def test(x_start, y_start, target_file, source_file, mask_file, args, outputdir, transfer, lf, vgg, mse, mean_shift, epoch, itr):
+    # Hyperparameter Inputs
+    gpu_id = args.device
+    ss = args.ss  # source image size
+    ts = args.ts  # target image size
+
+    # Load target images
+    t = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Lambda(lambda x: x.mul(255)),
+        # transforms.Normalize(mean, std)
+    ])
+    target_img = Image.open(target_file).convert('RGB').resize((ts, ts))
+    target_img = t(target_img).to(gpu_id).unsqueeze(0)
+    source_img = Image.open(source_file).convert('RGB').resize((ss, ss))
+    source_img = t(source_img).to(gpu_id).unsqueeze(0)
+    mask = np.array(Image.open(mask_file).convert('L').resize((ss, ss)))
+    mask[mask > 0] = 1
+    mask = torch.from_numpy(mask).unsqueeze(0)
+
+    # Import VGG network for computing style and content loss
+    target_features_style = vgg(mean_shift(target_img))
+    target_gram_style = [gram_matrix(y) for y in target_features_style]
+
+    x = source_img
+
+    # Make Canvas Mask
+    canvas_mask = make_canvas_mask(x_start, y_start, target_img, mask)  # (B, ts, ts)
+    canvas_mask = torch.from_numpy(canvas_mask).unsqueeze(1).float().to(gpu_id)  # (B, 1, ts, ts)
+
+    # Compute gt_gradient
+    gt_gradient = compute_gt_gradient(lf, canvas_mask, x_start, y_start, x, target_img, mask, gpu_id)  # list of (B, ts, ts)
+
+    x_ts = torch.zeros((x.shape[0], x.shape[1], ts, ts)).to(gpu_id)  # (B, 3, ts, ts)
+    x_ts[:, :, x_start - ss // 2:x_start + ss // 2, y_start - ss // 2:y_start + ss // 2] = x
+    with torch.no_grad():
+        input_img = transfer(torch.cat([canvas_mask, x_ts, target_img], dim=1))
+
+    # Composite Foreground and Background to Make Blended Image
+    canvas_mask = canvas_mask.expand((-1, 3, -1, -1))  # (B, 3, ts, ts)
+    blend_img = torch.zeros(target_img.shape).to(gpu_id)
+    blend_img = input_img * canvas_mask + target_img * (canvas_mask - 1) * (-1)  # I_B
+
+    # Compute Laplacian Gradient of Blended Image
+    pred_gradient = lf(blend_img)  # list of (B, ts, ts)
+
+    # Compute Gradient Loss
+    grad_loss = 0
+    for c in range(len(pred_gradient)):
+        grad_loss += mse(pred_gradient[c], gt_gradient[c])
+    grad_loss /= len(pred_gradient)
+
+    # Compute Style Loss
+    blend_features_style = vgg(mean_shift(input_img))
+    blend_gram_style = [gram_matrix(y) for y in blend_features_style]
+
+    style_loss = 0
+    for layer in range(len(blend_gram_style)):
+        style_loss += mse(blend_gram_style[layer], target_gram_style[layer])
+    style_loss /= len(blend_gram_style)
+
+    # Compute Content Loss
+    blend_obj = blend_img[:, :, int(x_start - x.shape[2] * 0.5):int(x_start + x.shape[2] * 0.5),
+                int(y_start - x.shape[3] * 0.5):int(y_start + x.shape[3] * 0.5)]
+    m = mask.unsqueeze(1).expand((-1, 3, -1, -1)).to(gpu_id)
+    source_object_features = vgg(mean_shift(x * m))
+    blend_object_features = vgg(mean_shift(blend_obj * m))
+    content_loss = mse(blend_object_features.relu2_2, source_object_features.relu2_2)
+
+    # Compute TV Reg Loss
+    tv_loss = torch.sum(torch.abs(blend_img[:, :, :, :-1] - blend_img[:, :, :, 1:])) + \
+              torch.sum(torch.abs(blend_img[:, :, :-1, :] - blend_img[:, :, 1:, :]))
+
+    print(f'grad : {grad_loss.item():.4f}, style : {style_loss.item():.4f}, '
+          f'content: {content_loss.item():.4f}, tv: {tv_loss.item():.4f}')
+
+    blend_img = blend_img.detach()
+    blend_img.data.clamp_(0, 255)
+    input_img = input_img.detach()
+    input_img.data.clamp_(0, 255)
+    out = torch.cat([x_ts, x_ts * canvas_mask, blend_img, input_img], dim=0)
+    save_grid(out, f'{outputdir}/test_{epoch:02}_{itr:04}_{grad_loss.item():.4f}_{style_loss.item():.4f}_'
+                   f'{content_loss.item():.4f}.png', nrow=1)
 
 
 def _prepare(img):
